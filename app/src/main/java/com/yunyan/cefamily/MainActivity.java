@@ -1,14 +1,14 @@
 package com.yunyan.cefamily;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.yunyan.mall.activitys.MallMainActivity;
+import com.yunyan.download.DownMainActivity;
 
 public class MainActivity extends AppCompatActivity {
     TextView tv_a;
@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         tv_a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, MallMainActivity.class));
+                //startActivity(new Intent(MainActivity.this, MallMainActivity.class));
+                startActivity(new Intent(MainActivity.this, DownMainActivity.class));
             }
         });
     }

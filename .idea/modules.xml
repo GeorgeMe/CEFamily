@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CEFamily.iml" filepath="$PROJECT_DIR$/CEFamily.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall/mall.iml" filepath="$PROJECT_DIR$/mall/mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toybricks/toybricks.iml" filepath="$PROJECT_DIR$/toybricks/toybricks.iml" />
     </modules>
   </component>
 </project>
