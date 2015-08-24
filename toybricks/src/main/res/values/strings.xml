@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToyBricks</string>
+    <string name="loadTitle"><strong>正在更新数据</strong></string>
+    <string name="LoadContent"><strong>请稍候……</strong></string>
+    <string name="net_error">当前网络不可用，请先连接Internet！</string>
+    <string name="toybricks_app_product">http://10.0.0.17:8080/YunYan/ToyBricks.json</string>
+</resources>

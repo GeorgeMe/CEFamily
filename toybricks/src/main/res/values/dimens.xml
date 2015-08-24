@@ -1,0 +1,21 @@
+<resources>
+    
+    <dimen name="cc_front_size">12sp</dimen>
+    <dimen name="cc_padding_bottom_size">8dp</dimen>
+    <dimen name="cc_padding_top_size">8dp</dimen>
+    <dimen name="cc_padding_left_size">16dp</dimen>
+    <dimen name="cc_padding_right_size">16dp</dimen>	
+    
+    <dimen name="cc_front_size_1">12sp</dimen>
+    <dimen name="cc_padding_bottom_size_1">6dp</dimen>
+    <dimen name="cc_padding_top_size_1">6dp</dimen>       
+    
+    <dimen name="toybricks_topbar_imageview_hight">50dip</dimen>
+    <dimen name="toybricks_tuijian_pagerview_hight">150dip</dimen>
+    <dimen name="toybricks_radiobutton_layout_marginleft">5dip</dimen>
+    
+    <dimen name="list_view_item_toybricks_hight">100dip</dimen>   
+    <dimen name="list_view_item_toybricks_padding">10dip</dimen>   
+    <dimen name="list_view_item_toybricks_text_sp">12sp</dimen>   
+    
+</resources>

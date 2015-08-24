@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="4dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <ImageView
+            android:id="@+id/toybricks_listview_item_icon"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/list_view_item_toybricks_hight"
+            android:layout_weight="0.25"
+            android:background="#ffb92b"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/toybricks_listview_item_des"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/list_view_item_toybricks_hight"
+            android:layout_gravity="center"
+            android:layout_weight="0.55"
+            android:gravity="center"
+            android:background="#eaff3d"
+            android:lines="3"
+            android:padding="2dip"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/list_view_item_toybricks_text_sp" />
+
+        <ImageView
+            android:id="@+id/toybricks_listview_item_btn"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/list_view_item_toybricks_hight"
+            android:layout_gravity="center"
+            android:background="#3523fe"
+            android:layout_weight="0.20"
+            android:paddingBottom="@dimen/list_view_item_toybricks_padding"
+            android:paddingTop="@dimen/list_view_item_toybricks_padding" />
+
+    </LinearLayout>  
+

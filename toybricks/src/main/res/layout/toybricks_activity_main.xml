@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toybricks_app_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toybricks_topbar_imageview_hight"
+        android:background="@drawable/toybricks_topbar_bg_a"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <ImageView
+            android:id="@+id/toybricks_topbar_setting"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/toybricks_topbar_imageview_hight"
+            android:layout_weight="0.20"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"
+            android:src="@drawable/toybricks_topbar_setting" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/toybricks_topbar_icon"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/toybricks_topbar_imageview_hight"
+            android:layout_weight="0.6"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/toybricks_topbar_play"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/toybricks_topbar_imageview_hight"
+            android:layout_weight="0.20"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"
+            android:src="@drawable/toybricks_topbar_play" >
+        </ImageView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toybricks_tuijian_pagerview_hight" >
+
+        <com.yunyan.toybricks.widget.ToyBricksGallery
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toybricks_tuijian_pagerview_hight"
+            android:layout_centerHorizontal="true"
+            android:fadingEdge="none"
+            android:gravity="center_vertical"
+            android:spacing="1dip"
+            android:unselectedAlpha="1" />
+
+        <LinearLayout
+            android:id="@+id/home_slide_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dip" >
+
+            <ImageView
+                android:id="@+id/imgPoint0"
+                style="@style/slide"
+                android:background="@drawable/slide_adv_selected" />
+
+            <ImageView
+                android:id="@+id/imgPoint1"
+                style="@style/slide"
+                android:background="@drawable/slide_adv_normal" />
+
+            <ImageView
+                android:id="@+id/imgPoint2"
+                style="@style/slide"
+                android:background="@drawable/slide_adv_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/toybricks_swipemenulistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/white"
+        android:dividerHeight="2px"
+        android:scrollbars="none" >
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+</LinearLayout>

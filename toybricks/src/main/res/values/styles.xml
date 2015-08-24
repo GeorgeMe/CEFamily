@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Application theme. -->
+
+    <style name="item_style">
+        <item name="android:textSize">@dimen/cc_front_size</item>
+        <item name="android:paddingBottom">@dimen/cc_padding_bottom_size</item>
+        <item name="android:paddingTop">@dimen/cc_padding_top_size</item>
+        <item name="android:paddingLeft">@dimen/cc_padding_left_size</item>
+        <item name="android:paddingRight">@dimen/cc_padding_right_size</item>
+    </style>
+
+    <style name="item_style_update">
+        <item name="android:textSize">@dimen/cc_front_size_1</item>
+        <item name="android:paddingBottom">@dimen/cc_padding_bottom_size_1</item>
+        <item name="android:paddingTop">@dimen/cc_padding_top_size_1</item>
+        <item name="android:paddingLeft">@dimen/cc_padding_left_size</item>
+        <item name="android:paddingRight">@dimen/cc_padding_right_size</item>
+    </style>
+    <style name="slide">
+        <item name="android:layout_width">7dip</item>
+        <item name="android:layout_height">7dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+    </style>
+</resources>
